@@ -1,0 +1,16 @@
+MATH.RANDOM: SEGUN EL JUANLU
+============================
+
+int numero = (int)(Math.random)*x)+x;
+
+Se quiere empezar desde 28 hasta 220.
+
+Para calcular el numero del asterisco(*), restamos la suma de desde donde empieza (en este caso 28) y donde queremos llegar (este caso 220) y sumamos (1):
+
+	220   |
+	-28   |
+       -----  |
+	192   |----->  int numero = (int)(Math.random)*193)+28;
+	+ 1   |
+       -----  |
+	193   |
